@@ -6,6 +6,7 @@
     list-style: none;
 }
 
+
 nav {
     padding: 32px 32px;
     min-height: 80px;
@@ -66,19 +67,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .bigcontainer {
     /*adjusting aside block on the right side*/
     text-align: right; 
     font-size: 0; /* getting rid of empty space */
+    height: 1500px;
 }
 
 main {
     display: inline-block;
     vertical-align: top;
     width: 80%;
-    height: 700px;
     padding: 20px;
     box-sizing: border-box;
     background-color:#fff;
@@ -88,10 +90,8 @@ main {
 
 aside {
     display: inline-block;
-    vertical-align: top;
     width: 20%;
-    height: 700px;
-    padding: 20px;
+    height: 100%;
     box-sizing: border-box;
     background-color: #5c5b5b;
     text-align: center;
@@ -115,6 +115,8 @@ footer {
     padding: 10px 10px;
     background: #1f1f1f;
     text-align: center;
+    /*position: fixed;*/
+    width: 100%;
 }
 
 footer ul {
@@ -185,13 +187,23 @@ ul li a:active {
     border: 2px solid black;
     float: left;
     margin-left: 40px; /* 왼쪽 여백 */
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 0;
     margin-right: 20px; /* 오른쪽 여백 */
     padding: 20px;
 }
 
 .first-pic-right {
+    border: 2px solid black;
+    float: right;
+    margin-left: 20px; /* 왼쪽 여백 */
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-right: 40px; /* 오른쪽 여백 */
+    padding: 20px;
+}
+
+.second-pic {
     border: 2px solid black;
     float: right;
     margin-left: 20px; /* 왼쪽 여백 */
