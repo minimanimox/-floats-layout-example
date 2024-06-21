@@ -62,25 +62,26 @@ nav ul li a:active {
     color: aquamarine;
 }
 
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    height: 100%;
+
 }
 
 .bigcontainer {
     /*adjusting aside block on the right side*/
     text-align: right; 
     font-size: 0; /* getting rid of empty space */
-    height: 1500px;
+    height: 1400px;
+
 }
 
 main {
     display: inline-block;
     vertical-align: top;
     width: 80%;
+    height: 100%;
     padding: 20px;
     box-sizing: border-box;
     background-color:#fff;
@@ -115,7 +116,6 @@ footer {
     padding: 10px 10px;
     background: #1f1f1f;
     text-align: center;
-    /*position: fixed;*/
     width: 100%;
 }
 
@@ -188,9 +188,11 @@ ul li a:active {
     float: left;
     margin-left: 40px; /* 왼쪽 여백 */
     margin-top: 40px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     margin-right: 20px; /* 오른쪽 여백 */
     padding: 20px;
+    width: 300px;
+    height: 300px;
 }
 
 .first-pic-right {
@@ -211,4 +213,20 @@ ul li a:active {
     margin-bottom: 0;
     margin-right: 40px; /* 오른쪽 여백 */
     padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.third-pic {
+    border: 2px solid black;
+    margin-left: 40px; 
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 40px; 
+    padding: 20px;
+    clear: both;
+}
+
+picture.hamsters > img {
+    width:200px;
 }
